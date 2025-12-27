@@ -1,6 +1,6 @@
 # 📅 Calendar Management System
 
-A minimal, timezone-safe Calendar Management System built using Flask and PostgreSQL.  
+A minimal, timezone-safe Calendar Management System built using Flask and MySQL.  
 The system allows users to create, view, update, and manage calendar events while preventing overlapping time conflicts.
 
 ---
@@ -45,7 +45,7 @@ To design and build a minimal calendar management system that:
 | Layer | Technology |
 |-----|------------|
 | Backend | Python, Flask |
-| Database | PostgreSQL |
+| Database | MySQL |
 | ORM | SQLAlchemy |
 | Frontend | HTML, CSS (inline), JavaScript |
 | Time Handling | datetime, zoneinfo |
@@ -54,4 +54,5 @@ To design and build a minimal calendar management system that:
 ---
 
 ## 📁 Project Structure
+
 
