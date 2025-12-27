@@ -55,29 +55,25 @@ To design and build a minimal calendar management system that:
 
 ## 📁 Project Structure
 
-
 calendar-management-system/
-│
-├── app/
-│ ├── init.py
-│ ├── config.py
-│ ├── extensions.py
-│ ├── models.py
-│ ├── routes.py
-│ ├── services/
-│ │ ├── conflict_service.py
-│ │ └── event_service.py
-│ ├── utils/
-│ │ └── time_utils.py
-│ └── templates/
-│ ├── index.html
-│ └── week.html
-│
-├── tests/
-│ └── test_conflicts.py
-│
-├── run.py
-├── requirements.txt
-├── README.md
-├── experience.md
-└── .gitignore
+app/
+app/__init__.py
+app/config.py
+app/extensions.py
+app/models.py
+app/routes.py
+app/services/
+app/services/conflict_service.py
+app/services/event_service.py
+app/utils/
+app/utils/time_utils.py
+app/templates/
+app/templates/index.html
+app/templates/week.html
+tests/
+tests/test_conflicts.py
+run.py
+requirements.txt
+README.md
+experience.md
+.gitignore
