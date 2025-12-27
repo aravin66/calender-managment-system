@@ -146,7 +146,80 @@ python run.py
 
 Application runs at:
 ```
+
+
+---
+
+## ▶️ How to Use the Application
+
+1. Start the server using `python run.py`
+2. Open browser at `http://127.0.0.1:5000/`
+3. Create an event using the form
+4. Navigate to Weekly View to see events
+5. Conflicting events are automatically blocked
+
+---
+
+## 🔌 API Endpoints
+
+| Method | Endpoint | Description |
+|-------|----------|-------------|
+| POST | `/events` | Create new event |
+| GET | `/events/week` | View weekly events |
+| PUT | `/events/<id>` | Update event |
+| DELETE | `/events/<id>` | Delete event |
+| GET | `/health` | API status |
+
+---
+
+## 🧪 Testing
+
+- Event creation validation
+- Conflict detection testing
+- Weekly filtering verification
+- Timezone conversion testing
+- Data persistence verification
+
+---
+
+## 🔒 Conflict Detection Logic
+
+
+This ensures:
+- No overlapping events
+- Boundary-touching events are allowed
+
+---
+
+## ⚠️ Known Limitations
+
+- Single calendar only
+- No user authentication
+- No recurring events
+- No notifications or reminders
+- Daylight Saving Time edge cases not simulated
+
+---
+
+## 🤖 Use of AI
+
+AI tools were used to:
+- Assist in system design
+- Analyze edge cases
+- Validate conflict detection logic
+- Suggest code structure improvements
+
+Final implementation and integration decisions were made manually.
+
+---
+
+## 👤 Author
+
+Aravind Ajay  
+Calendar Management System Project
+
 http://127.0.0.1:5000/
 ```
+
 
 
